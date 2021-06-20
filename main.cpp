@@ -1,12 +1,16 @@
 #include <iostream>
+#include "klasa.h"
 #include "menu.h"
-using namespace std;
+#include <cstdlib>
+#include <stdlib.h>
+#include "operacje_na_plikach.h"
 
+using namespace std;
 
 int main()
 {
-
-    menu();
-
-    return 0;
+  
+   Arkusz arkusz;
+   wyswietl_menu(arkusz);
+   
 }
